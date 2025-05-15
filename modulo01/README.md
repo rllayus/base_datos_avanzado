@@ -90,3 +90,15 @@ sistema y necesita eliminar usuario.
 
 Ada Sofia que es la encargada comercial necesita acceder a hacer consultas a la tabla ventas y a ninguna otra tabla más.
 
+---
+## Práctica en clases
+Se requiere crear una base de datos para la empresa **Coca Cola** con las siguientes consideraciones
+* La cuenta **Owner** sólo debe ser utilizado para la administración de la Base de Datos
+* Se debe crear un usuario para la aplicación de pedidos que le permita realizar INSERT, UPDATE, DELETE y que permita crear tablas, secuencias
+* Para el sistema de reportes se debe crear un usuario que sólo pueda leer datos
+
+## Optimización de base de datos
+Para optimizar la base de datos se debe configurar parámetros del motor de base de datos, para saber que parámetos se debe modificar 
+es mejor utilizar el sitio [PGTune](https://pgtune.leopard.in.ua/)
+Se debe colocar los parámetros solicitados y el sitio web generará los valores a configurar. 
+Los valores generadors se debe ejecutar con el usuario root 
