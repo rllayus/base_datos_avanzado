@@ -1,15 +1,13 @@
-# ADMINISTRACIÓN DE BASE DE DATOS
+# DISEÑO DE BASE DE DATOS LOGICO
 
-* **1. Administración de usuarios**
-* **2. Creación de base de datos**
-* **3. Asignación de permiso a un usuario**
-* **4. Práctica en clases**
+* **1. Modelo ER**
+* **2. Relación de uno a muchos**
+* **3. Relación de muchos a muchos**
+* **4. Representación física de un diseño lógico**
 
 
-## 1. Administración de usuarios
-Lo primero que debemos saber es que Postgres considera de la misma manera a roles, grupos y usuarios, en la materia 
-nosotros crearemos directamente usuarios.
-La sintaxis para crear un usuario es:
+## 1. Modelo ER
+Para realizar el moddelo ER utilizaremos [dbdesigner](https://erd.dbdesigner.net/) que nos permite modelar 
 
 ```sql
     CREATE USER user_reporte WITH
